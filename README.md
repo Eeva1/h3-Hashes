@@ -50,9 +50,13 @@
 - That is why key management is so important in cryptgraphy.
 
 Symmetric cryptsystems have a few problems:
-    - Keys must be distributed in secret.
-    - If a key is compromised Somebody can decrypt all message traffic encrypted with that key. She can also pretend to be one of the parties and produce false              messages to fool the other party.
-    - The total number of keys increases rapidly as the number of users increases, if separate key is used for each pair of users in a network.
+  - Keys must be distributed in secret.
+  - If a key is compromised Somebody can decrypt all message traffic encrypted with that key. She can also pretend to be one of the parties and produce false              messages to fool the other party.
+  - The total number of keys increases rapidly as the number of users increases, if separate key is used for each pair of users in a network.
+
+## Hashcat
+
+
 
 - The concept of a one-way function is crucial in public-key cryptography. Although not protocols on their own, one-way functions serve as a fundamental building block.
 - A trapdoor one-way function is a unique kind of one-way function that comes with a secret trapdoor. It's easy to calculate in one direction but challenging in the opposite direction. 
