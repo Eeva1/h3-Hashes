@@ -53,12 +53,22 @@ Symmetric cryptsystems have a few problems:
   - Keys must be distributed in secret.
   - If a key is compromised Somebody can decrypt all message traffic encrypted with that key. She can also pretend to be one of the parties and produce false              messages to fool the other party.
   - The total number of keys increases rapidly as the number of users increases, if separate key is used for each pair of users in a network.
+  - The concept of a one-way function is crucial in public-key cryptography. Although not protocols on their own, one-way functions serve as a fundamental building        block.
+  - A trapdoor one-way function is a unique kind of one-way function that comes with a secret trapdoor. It's easy to calculate in one direction but challenging in the     opposite direction. 
 
 ## Hashcat
 
+- I was able to do everything else in the cracking password test, except actually cracking the password ;) I tried couple of times and every time I got this in the end: ![image](https://github.com/Eeva1/h3-Hashes/assets/149093822/e3cf2a78-771a-4546-bd48-48f2ec47cf04)
+
+- I also haven't been able to solve the small screen problem as I don't have the "Devices" in my menu bar. I tried to look around the web but it seems, that others have had the same problem and solving it is not easy. https://forums.virtualbox.org/viewtopic.php?t=108844, https://forums.virtualbox.org/viewtopic.php?t=77473, https://superuser.com/questions/893159/cant-install-guest-additions-missing-devices-menu-on-host
+
+- 
 
 
-- The concept of a one-way function is crucial in public-key cryptography. Although not protocols on their own, one-way functions serve as a fundamental building block.
-- A trapdoor one-way function is a unique kind of one-way function that comes with a secret trapdoor. It's easy to calculate in one direction but challenging in the opposite direction. 
+ 
+
+
+
+
 
       
