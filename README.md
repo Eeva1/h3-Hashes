@@ -58,11 +58,56 @@ Symmetric cryptsystems have a few problems:
 
 ## Hashcat
 
-- I was able to do everything else in the cracking password test, except actually cracking the password ;) I tried couple of times and every time I got this in the end: ![image](https://github.com/Eeva1/h3-Hashes/assets/149093822/e3cf2a78-771a-4546-bd48-48f2ec47cf04)
+x) The first time I was able to do everything else in the cracking password test, except actually cracking the password in the end ;) This was maybe because there was a warning and I did not pass further, I just copy-paste the key again without any warning, and it gave me this result. 
 
-- I also haven't been able to solve the small screen problem as I don't have the "Devices" in my menu bar. I tried to look around the web but it seems, that others have had the same problem and solving it is not easy. https://forums.virtualbox.org/viewtopic.php?t=108844, https://forums.virtualbox.org/viewtopic.php?t=77473, https://superuser.com/questions/893159/cant-install-guest-additions-missing-devices-menu-on-host
+![image](https://github.com/Eeva1/h3-Hashes/assets/149093822/e3cf2a78-771a-4546-bd48-48f2ec47cf04)
 
-- 
+
+The second time I was actually able to crack the password.
+![image](https://github.com/Eeva1/h3-Hashes/assets/149093822/328ee550-fea2-4a06-8750-7ac1a7a17bc0)
+![image](https://github.com/Eeva1/h3-Hashes/assets/149093822/d1367bad-b6d7-49d0-a0de-b8f85a4bc3b9)
+
+
+a) 
+voluntary bonus: Classic Bitcoin uses the SHA256 hash algorithm. SHA256 = Secure Hash Algorithms 256 Bits
+https://yukimotopress.github.io/programming-blockchains-step-by-step
+
+(I haven't been able to solve the small screen problem as I don't have the "Devices" in my menu bar. I tried to look around the web but it seems, that others have had the same problem and solving it is not easy.)
+https://forums.virtualbox.org/viewtopic.php?t=108844, https://forums.virtualbox.org/viewtopic.php?t=77473
+https://superuser.com/questions/893159/cant-install-guest-additions-missing-devices-menu-on-host
+Sometimes I also must boot the virtual box as it gets stucked.)
+
+- b) Compare hash. Create a small text file. Take it's hash (e.g. 'sha256sum tero.txt'). Change one letter. Take the hash again. Compare hashes. What do you notice?
+      - I made a new file, but I don't understand where I can take it's hash? I just can't realize what I should do..
+- b) Install hashcat and test that it works.
+- c) Crack this hash: 21232f297a57a5a743894a0e4a801fc3
+
+I was able to identify the hash  type
+![image](https://github.com/Eeva1/h3-Hashes/assets/149093822/e0247ad0-0214-4417-b239-4c68d5dcace3)
+
+Then I tryed to crack the password, but I realized that I need to add the dictionary. 
+
+![image](https://github.com/Eeva1/h3-Hashes/assets/149093822/31a2b7de-899d-4fb3-8b63-71543e2f86ba)
+
+Then I got the dictionary rockyou.txt
+
+![image](https://github.com/Eeva1/h3-Hashes/assets/149093822/b4e5c52d-77ef-4fb5-b788-333f4a8e2273)
+
+Then I cracked the password:
+
+![image](https://github.com/Eeva1/h3-Hashes/assets/149093822/e5a08342-c2e6-4df0-b5ed-99dc58126de8)
+
+But then I lost it...
+
+I tryed to find it..
+
+![image](https://github.com/Eeva1/h3-Hashes/assets/149093822/fcfcc866-7653-4899-84a1-09d8c1f655b1)
+
+But I am not sure is the password: admin
+
+- d) Crack this Windows NTLM hash: f2477a144dff4f216ab81f2ac3e3207d
+- e) Try cracking this hash and comment on your hash rate $2y$18$axMtQ4N8j/NQVItQJed9uORfsUK667RAWfycwFMtDBD6zAo1Se2eu . This subtask d does not require actually cracking the hash, just trying it and commenting on the hash rate.
+
 
 
  
