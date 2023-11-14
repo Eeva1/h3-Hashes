@@ -106,6 +106,12 @@ I tryed to find it..
 But I am not sure is the password: admin
 
 - d) Crack this Windows NTLM hash: f2477a144dff4f216ab81f2ac3e3207d
+
+It started doing a lot of things when I put "hashcat -m 0  f2477a144dff4f216ab81f2ac3e3207d
+
+And ended up like this
+
+
 - e) Try cracking this hash and comment on your hash rate $2y$18$axMtQ4N8j/NQVItQJed9uORfsUK667RAWfycwFMtDBD6zAo1Se2eu . This subtask d does not require actually cracking the hash, just trying it and commenting on the hash rate.
 
 
