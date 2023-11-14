@@ -111,6 +111,9 @@ It started doing a lot of things when I put "hashcat -m 0  f2477a144dff4f216ab81
 
 And ended up like this
 
+![image](https://github.com/Eeva1/h3-Hashes/assets/149093822/be458216-29a8-4593-82bb-2e7f10a9478f)
+
+This page is interesting
 
 - e) Try cracking this hash and comment on your hash rate $2y$18$axMtQ4N8j/NQVItQJed9uORfsUK667RAWfycwFMtDBD6zAo1Se2eu . This subtask d does not require actually cracking the hash, just trying it and commenting on the hash rate.
 
