@@ -119,10 +119,13 @@ This page is interesting: https://yukimotopress.github.io/programming-blockchain
 
 References added on 22.11.
 
-https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02-sec003
-https://terokarvinen.com/2023/trust-to-blockchain/#h1-helsec
-https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
-
+- https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02-sec003
+- https://terokarvinen.com/2023/trust-to-blockchain/#h1-helsec
+- https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
+- https://yukimotopress.github.io/programming-blockchains-step-by-step
+- https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
+- https://forums.virtualbox.org/viewtopic.php?t=108844, https://forums.virtualbox.org/viewtopic.php?t=77473
+- https://superuser.com/questions/893159/cant-install-guest-additions-missing-devices-menu-on-host
  
 
 
