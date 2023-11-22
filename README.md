@@ -117,11 +117,11 @@ Not solved..
 
 This page is interesting: https://yukimotopress.github.io/programming-blockchains-step-by-step
 
+References added on 22.11.
 
-
-
-
-
+https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02-sec003
+https://terokarvinen.com/2023/trust-to-blockchain/#h1-helsec
+https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
 
  
 
